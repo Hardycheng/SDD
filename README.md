@@ -10,13 +10,16 @@ SDD（Specification-Driven Development）提供一套標準化的開發流程，
 
 - **`/speckit.constitution`** - 制定專案基本規則與原則
 - **`/speckit.specify`** - 撰寫功能規格文件和任務清單
+- **`/speckit.plan`** - 規劃技術架構與系統設計
 - **`/speckit.implement`** - 根據規格實作功能並追蹤進度
 
 ## 快速開始
 
 1. 確保已安裝 GitHub Copilot
-2. 使用 `/speckit.specify` 建立專案規格
-3. 使用 `/speckit.implement` 開始實作
+2. 使用 `/speckit.constitution` 制定專案基本原則（可選）
+3. 使用 `/speckit.specify` 建立專案規格
+4. 使用 `/speckit.plan` 規劃技術架構（可選）
+5. 使用 `/speckit.implement` 開始實作
 
 ## 文件結構
 
@@ -24,13 +27,15 @@ SDD（Specification-Driven Development）提供一套標準化的開發流程，
 /workspaces/SDD/
 ├── README.md                    # 專案說明（本檔案）
 ├── SPEC.md                      # 詳細規格文件
+├── PLAN.md                      # 技術架構規劃（可選）
 ├── tasks.md                     # 任務追蹤清單
 ├── .github/
 │   ├── copilot-instructions.md  # Copilot 基本設定
 │   └── prompts/                 # Slash 指令定義目錄
-│       ├── constitution.md
-│       ├── specify.md
-│       └── implement.md
+│       ├── constitution.md      # 制定專案憲法
+│       ├── specify.md           # 撰寫規格文件
+│       ├── plan.md              # 規劃技術架構
+│       └── implement.md         # 實作功能
 ```
 
 ## 開發原則
