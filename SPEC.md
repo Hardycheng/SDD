@@ -50,7 +50,7 @@ SDD 是一個基於規格驅動開發（Specification-Driven Development）的�
 - **用途**：根據規格實作功能
 - **行為**：
   - 讀取 `SPEC.md` 和 `tasks.md`
-  - 確認已完成的任務並打勾
+  - AI 自動確認已完成的任務並在 `tasks.md` 中打勾
   - 實作下一個未完成的任務
   - 不刪除或覆蓋規格文件
   - 每階段確保 git 正確提交
@@ -74,8 +74,9 @@ SDD 是一個基於規格驅動開發（Specification-Driven Development）的�
 
 - 使用 `tasks.md` 作為待辦清單
 - 格式：Markdown checklist
-- 實作階段要確認並打勾已完成項目
+- **AI 負責**在實作階段確認並打勾已完成項目
 - 按順序執行未完成的任務
+- AI 會在開始實作前先檢查並更新已完成但未打勾的任務
 
 ## 技術規格
 
