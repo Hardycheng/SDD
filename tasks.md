@@ -2,11 +2,12 @@
 
 ## Phase 1: 基礎設施建立
 
-- [ ] 建立 `.github/prompts/` 目錄
-- [ ] 建立 `/speckit.constitution` 指令檔案
-- [ ] 建立 `/speckit.specify` 指令檔案
-- [ ] 建立 `/speckit.implement` 指令檔案
-- [ ] 更新 README.md 增加專案說明
+- [x] 建立 `.github/prompts/` 目錄
+- [x] 建立 `/speckit.constitution` 指令檔案
+- [x] 建立 `/speckit.specify` 指令檔案
+- [x] 建立 `/speckit.plan` 指令檔案
+- [x] 建立 `/speckit.implement` 指令檔案
+- [x] 更新 README.md 增加專案說明
 - [ ] 提交基礎設施檔案到 git
 
 ## Phase 2: 指令內容撰寫
