@@ -11,10 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy `docs/` to gh-pages
+      - name: Deploy `docs/` to gh-pages (使用 repo secret)
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./docs
           publish_branch: gh-pages
-          # 使用內建的 GITHUB_TOKEN
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 改用 repository secret (請在 Repository Secrets 加入名為 ACTIONS_DEPLOY_TOKEN 的 PAT)
+          github_token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
